@@ -25,7 +25,7 @@ environments {
             driverClassName = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://localhost:3306/clickb"
             username = "root"
-            password=""
+            password="123"
         }
     }
     test {

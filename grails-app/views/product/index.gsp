@@ -6,8 +6,11 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'product.label', default: 'Product')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
+		%{--<!-- Export plugin -->
+		<export:resource />--}%
 	</head>
 	<body>
+
 		<a href="#list-product" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
@@ -60,7 +63,8 @@
 			</table>
 			<div class="pagination">
 				<g:paginate total="${productInstanceCount ?: 0}" />
-			</div>
+			</div>%{--
+			<export:formats />--}%
 		</div>
 	</body>
 </html>

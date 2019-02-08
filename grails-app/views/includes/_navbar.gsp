@@ -93,8 +93,14 @@
                                 <g:set var="sumTotal" value="0"/>
                                 <g:each in="${session.cartMap}" var="cartMap">
                                     <g:set var="product" value="${clickb.Product.get(cartMap.getKey())}"/>
+                                    <g:if test="${product.discount==0}">
+                                        <g:set var="price" value="${product.price}"/>
+                                    </g:if>
+                                    <g:else>
+                                        <g:set var="price" value="${product.price-(product.price*product.discount/100)}"/>
+                                    </g:else>
                                     <g:set var="quantity" value="${cartMap.getValue()}"/>
-                                    <g:set var="sumTotal" value="${sumTotal.toInteger() + quantity.toInteger()* product.price}"/>
+                                    <g:set var="sumTotal" value="${sumTotal.toInteger() + quantity.toInteger()* price}"/>
                                 </g:each>
                                 ${sumTotal}
                             </span>
@@ -112,13 +118,13 @@
                                                 <h3 class="product-price">$ ${product.price} <span class="qty">x${cartItem.getValue()}</span></h3>
                                                 <h2 class="product-name"><a href="#">${product.productName}</a></h2>
                                             </div>
-                                            <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                            <g:link controller="cart" action="removeFromCart" params="[cartId: product.id]" class="cancel-btn"><i class="fa fa-trash"></i></g:link>
                                         </div>
                                     </g:each></div>
 
                                 <div class="shopping-cart-btns">
                                     <g:link controller="cart" action="index" class="main-btn">View Cart</g:link>
-                                    <button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+                                    <g:link controller="cart" action="checkout" class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></g:link>
                                 </div>
                             </div>
                         </div>

@@ -1,7 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa1f03a1-214d-40af-b509-7b74b4c0f761" name="Default Changelist" comment="" />
+    <list default="true" id="3de06983-5f5a-41f9-a9fa-405399992e6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc262ea3-11cb-4f3e-8075-3c42d982c7d1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickB-grailsPlugins.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clickB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clickB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/clickb/ProductController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/clickb/ProductController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/cart/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/cart/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/includes/_header.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/includes/_header.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/product/index.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/product/index.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6$_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6$_closure7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5$_closure6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2$_closure9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4$_closure10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4$_closure10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config$_run_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource$_run_closure3$_closure4$_closure7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4$_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4$_closure5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4$_closure6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4$_closure6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CartController$_notFound_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__delete_closure11$_closure18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__delete_closure11$_closure18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__save_closure9$_closure14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__save_closure9$_closure14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__update_closure10$_closure16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CategoryController$__tt__update_closure10$_closure16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14$_closure21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14$_closure21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14$_closure22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14$_closure22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__delete_closure14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12$_closure17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12$_closure17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12$_closure18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12$_closure18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__save_closure12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__searchResult_closure11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__searchResult_closure11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13$_closure19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13$_closure19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13$_closure20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13$_closure20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$__tt__update_closure13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10$_closure15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10$_closure15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10$_closure16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10$_closure16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController$_notFound_closure10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__delete_closure19$_closure26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__delete_closure19$_closure26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__mailSend_closure16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__mailSend_closure16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__save_closure17$_closure22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__save_closure17$_closure22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__update_closure18$_closure24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$__tt__update_closure18$_closure24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14$_closure20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14$_closure20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14$_closure21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14$_closure21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController$_notFound_closure14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clickb/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clickb/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportGrailsPlugin$_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportGrailsPlugin$_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportGrailsPlugin$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportGrailsPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportResources$_run_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportResources$_run_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/ExportResources.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib$_closure1$_closure3$_closure4$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib$_closure1$_closure3$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib$_closure1$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/ExportTagLib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/builder/ExcelBuilder$_createNode_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/builder/ExcelBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/AbstractExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultCSVExporter$_exportData_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultCSVExporter$_exportData_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultCSVExporter$_exportData_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultCSVExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure10$_closure12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3$_closure9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter$_exportData_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExcelExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultExporterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultODSExporter$_exportData_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultODSExporter$_exportData_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultODSExporter$_exportData_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultODSExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure2$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure4$_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter$_exportData_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultPDFExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultRTFExporter$_exportData_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultRTFExporter$_exportData_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultRTFExporter$_exportData_closure3$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultRTFExporter$_exportData_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultRTFExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultXMLExporter$_build_closure1$_closure2$_closure3$_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultXMLExporter$_build_closure1$_closure2$_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultXMLExporter$_build_closure1$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultXMLExporter$_build_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/DefaultXMLExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/Exporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterUtil$_getFields_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterUtil$_getFields_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterUtil$_getFields_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExporterUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/exporter/ExportingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/taglib/util/RenderUtils$_getResourcePath_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/de/andreasschmitt/export/taglib/util/RenderUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/PlainTextMailTagLib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/PlainTextMailTagLib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/ExportGrailsPlugin.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/grails-app/conf/ExportConfig.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/grails-app/conf/ExportResources.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/grails-app/services/de/andreasschmitt/export/ExportService.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/grails-app/taglib/de/andreasschmitt/export/ExportTagLib.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/scripts/_Install.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/scripts/_Uninstall.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/scripts/_Upgrade.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/builder/ExcelBuilder.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/AbstractExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultCSVExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultExcelExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultExporterFactory.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultODSExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultPDFExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultRTFExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/DefaultXMLExporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/Exporter.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/ExporterFactory.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/ExporterNotFoundException.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/ExporterUtil.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/exporter/ExportingException.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/src/groovy/de/andreasschmitt/export/taglib/util/RenderUtils.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/css/export.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/csv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/excel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/ods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/rtf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/shadow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/work/plugins/export-1.7-SNAPSHOT/web-app/images/skin/xml.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/product/images/Mon Jan 28 15:56:43 NPT 2019_23-828-004-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/product/images/Sat Jan 26 14:09:27 NPT 2019_-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/product/images/Sat Jan 26 20:40:13 NPT 2019_c05735335.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/product/images/Sun Jan 27 15:04:42 NPT 2019_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/product/images/Sun Jan 27 15:04:59 NPT 2019_sdl472897088_1.jpg" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$USER_HOME$/.grails/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,9 +192,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/clickB$Grails__clickB.ic" NAME="Grails: clickB Coverage Results" MODIFIED="1548057551425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -27,16 +207,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="clickb" type="feb32156:DbDataSourceImpl" />
+        <item name="clickB" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="clickb" type="feb32156:DbDataSourceImpl" />
+        <item name="clickB" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="clickb" type="feb32156:DbDataSourceImpl" />
+        <item name="clickB" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="clickb: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
@@ -45,29 +225,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_searchdiv.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/cart/checkout.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
-              <folding>
-                <element signature="e#16#53#0" expanded="true" />
-                <element signature="n#!!block;n#edit#0;n#!!block;n#UserController#0" />
-                <element signature="n#!!block;n#edit#0;n#!!block;n#UserController#0" />
-                <element signature="n#!!block;n#delete#0;n#!!block;n#UserController#0" />
-              </folding>
+            <state relative-caret-position="509">
+              <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -75,26 +255,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/cart/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_header.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+            <state relative-caret-position="910">
+              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -102,74 +264,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="504">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <element signature="e#16#53#0" expanded="true" />
-                <element signature="n#!!block;n#notFound#0;n#!!block;n#CartController#0" />
+                <element signature="e#17#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/product/productShow.gsp">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="74" column="29" selection-start-line="64" selection-start-column="24" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="1288">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="104" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>g:fo</find>
-      <find>categories</find>
-      <find>pages</find>
-      <find>image</find>
-      <find>save</find>
-      <find>g:for</find>
-      <find>sear</find>
-      <find>.</find>
-      <find>bre</find>
-      <find>.jpg</find>
-      <find>clearfix</find>
-      <find>del</find>
-      <find>ima</find>
-      <find>lates</find>
-      <find>search</find>
-      <find>search-input</find>
-      <find>add to cart</find>
-      <find>latest</find>
-      <find>late</find>
-      <find>sho</find>
-      <find>deals</find>
-      <find>bean</find>
-      <find>quic</find>
-      <find>my ca</find>
-      <find>logi</find>
-      <find>dep</find>
-      <find>landing</find>
-      <find>log</find>
-      <find>des-</find>
+      <find>mail</find>
       <find>cart</find>
+      <find>checj</find>
+      <find>email</find>
     </findStrings>
-    <replaceStrings>
-      <replace>stylesheets</replace>
-      <replace>javascripts</replace>
-      <replace>default-dropdown-custom</replace>
-      <replace>default-dropdown</replace>
-      <replace>&lt;asset:image src=&quot;product</replace>
-    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GrailsSDKManager">
     <option name="grailsSDKs">
@@ -181,61 +305,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/product/home.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/incudes/topnavbar.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/html.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/CategoryController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_sidenavbar.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/sidenav.css" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/product-search.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/searchnav.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_topnavbar.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_topnavbaradmin.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_html.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b8a52a2c-2c81-4c2f-bbfa-d3da71f2889d/console.sql" />
-        <option value="$PROJECT_DIR$/grails-app/domain/clickb/Category.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/clickb/Product.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/clickb/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/dashboard.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/ProductController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/_form.gsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/searchResult.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_pickedforyou.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/show.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_footer.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/domain/clickb/Cart.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_dealsoftheday.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/landing.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/product/productShow.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/assets/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_latestproduct.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/cart/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/includes/_header.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/category/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/CategoryController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/includes/_searchdiv.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/product/checkout.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/cart/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/cart/checkout.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy" />
       </list>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="550" />
@@ -243,11 +325,16 @@
     <option name="width" value="1137" />
     <option name="height" value="641" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +363,8 @@
               <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
               <item name="clickB" type="462c0819:PsiDirectoryNode" />
               <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="clickb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
@@ -296,46 +384,12 @@
               <item name="clickB" type="462c0819:PsiDirectoryNode" />
               <item name="grails-app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clickB" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clickB" type="462c0819:PsiDirectoryNode" />
-              <item name="grails-app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clickB" type="462c0819:PsiDirectoryNode" />
-              <item name="web-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clickB" type="462c0819:PsiDirectoryNode" />
-              <item name="web-app" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clickB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clickB" type="462c0819:PsiDirectoryNode" />
-              <item name="web-app" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Grails" />
     </panes>
   </component>
@@ -343,36 +397,17 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548607520865" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="grails.last.selected.app.url" value="file://$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deerwalkweb" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548930326652" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/grails-app/assets/stylesheets" />
-      <recent name="$PROJECT_DIR$/grails-app/views/user" />
-      <recent name="$PROJECT_DIR$/grails-app/assets/images/product" />
-      <recent name="$PROJECT_DIR$/grails-app/assets/fonts" />
-      <recent name="$PROJECT_DIR$/grails-app/assets/javascripts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/grails-app/views" />
+      <recent name="$PROJECT_DIR$/grails-app/views/cart" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="grails" />
-    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -387,8 +422,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Grails" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="-noverify" />
+    <configuration name="Grails: clickB" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="grailsApplicationRoot" value="$PROJECT_DIR$" />
@@ -397,655 +432,202 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_clickB_2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="36527" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <name>CONTEXT_XML</name>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <name>STAGING</name>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37589" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_clickB" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="34671" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <name>CONTEXT_XML</name>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <name>STAGING</name>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="36743" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa1f03a1-214d-40af-b509-7b74b4c0f761" name="Default Changelist" comment="" />
-      <created>1547704148319</created>
+      <changelist id="3de06983-5f5a-41f9-a9fa-405399992e6b" name="Default Changelist" comment="" />
+      <created>1548861527809</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547704148319</updated>
-      <workItem from="1547704150990" duration="7867000" />
-      <workItem from="1547719294595" duration="876000" />
-      <workItem from="1547786944201" duration="6553000" />
-      <workItem from="1547796495802" duration="3812000" />
-      <workItem from="1547806192230" duration="2559000" />
-      <workItem from="1548054795927" duration="4785000" />
-      <workItem from="1548060191734" duration="1127000" />
-      <workItem from="1548065152829" duration="4786000" />
-      <workItem from="1548086362370" duration="727000" />
-      <workItem from="1548144165994" duration="4389000" />
-      <workItem from="1548152313337" duration="3440000" />
-      <workItem from="1548222758651" duration="3663000" />
-      <workItem from="1548237548082" duration="614000" />
-      <workItem from="1548250408215" duration="230000" />
-      <workItem from="1548254006293" duration="597000" />
-      <workItem from="1548309467094" duration="3271000" />
-      <workItem from="1548321397697" duration="3149000" />
-      <workItem from="1548328210939" duration="780000" />
-      <workItem from="1548342692128" duration="644000" />
-      <workItem from="1548395810000" duration="10772000" />
-      <workItem from="1548410407598" duration="2639000" />
-      <workItem from="1548413768105" duration="2405000" />
-      <workItem from="1548430622153" duration="27000" />
-      <workItem from="1548485818589" duration="13058000" />
-      <workItem from="1548576910282" duration="2717000" />
-      <workItem from="1548580518970" duration="13727000" />
-      <workItem from="1548652649578" duration="4160000" />
-      <workItem from="1548669659388" duration="2554000" />
-      <workItem from="1548741669953" duration="10069000" />
-      <workItem from="1548756296069" duration="1568000" />
-      <workItem from="1548767945533" duration="294000" />
-      <workItem from="1548769067610" duration="463000" />
+      <updated>1548861527809</updated>
+      <workItem from="1548861539642" duration="1628000" />
+      <workItem from="1548915456840" duration="12775000" />
+      <workItem from="1548987373681" duration="179000" />
+      <workItem from="1549083220383" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118322000" />
+    <option name="totallyTimeSpent" value="14470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1315" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.2466509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26162332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.5010482" side_tool="true" weight="0.1891253" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3993232" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32994923" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" sideWeight="0.49881798" visible="true" weight="0.5212224" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.501182" side_tool="true" weight="0.5212224" />
+      <window_info anchor="bottom" id="Grails Console" order="4" weight="0.3293718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Grails Console" order="10" weight="0.74111676" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32994923" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3293718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980299" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32939324" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32939324" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989518" visible="true" weight="0.21907014" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" sideWeight="0.5010482" side_tool="true" weight="0.1891253" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3993232" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993232" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Grails Console" order="10" weight="0.32994923" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32994923" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24980299" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32939324" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32939324" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537431" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Persistence" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49960598" weight="0.5212224" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.500394" side_tool="true" weight="0.5212224" />
+      <window_info anchor="bottom" id="Grails Console" order="4" weight="0.3293718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3293718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32939324" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.min.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5094d897-f6d6-49ff-bdd1-9ae852fd752a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dc262ea3-11cb-4f3e-8075-3c42d982c7d1/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/clickb/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
-    </entry>
-    <entry file="das://dc262ea3-11cb-4f3e-8075-3c42d982c7d1/schema/clickb/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/dashboard.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/product/images/Sat Jan 26 14:09:27 NPT 2019_-.jpg">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_pickedforyou.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/images/product/banner02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="4" column="116576" selection-start-line="4" selection-start-column="116576" selection-end-line="4" selection-end-column="116576" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/nouislider.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/slick.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/slick-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/javascripts/jquery.zoom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="843" selection-start-line="5" selection-start-column="843" selection-end-line="5" selection-end-column="843" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_footer.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dc262ea3-11cb-4f3e-8075-3c42d982c7d1/schema/clickb/table/product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_dealsoftheday.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.5.6/dist/grails-plugin-gsp-2.5.6-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ValidationTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="107" column="66" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/edit.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/searchResult.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/clickb/Cart.groovy" />
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.5.6/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.4.10.jar!/org/codehaus/groovy/runtime/callsite/NullCallSite.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/_form.gsp">
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/export-1.4/src/groovy/de/andreasschmitt/export/exporter/ExporterUtil.groovy" />
+    <entry file="file://$PROJECT_DIR$/grails-app/views/category/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/landing.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/ProductController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#84#0" expanded="true" />
-          </folding>
+          <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/grails/2.5.6/dist/grails-plugin-gsp-2.5.6-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ApplicationTagLib.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="156" column="12" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="917" column="24" lean-forward="true" selection-start-line="917" selection-start-column="24" selection-end-line="917" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_latestproduct.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/clickb/Product.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="602">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5094d897-f6d6-49ff-bdd1-9ae852fd752a/schema/clickb/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="112" column="61" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
+        <state relative-caret-position="33">
+          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy">
+    <entry file="das://5094d897-f6d6-49ff-bdd1-9ae852fd752a/schema/clickb/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_searchdiv.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="135" column="43" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-            <element signature="n#!!block;n#edit#0;n#!!block;n#UserController#0" />
-            <element signature="n#!!block;n#edit#0;n#!!block;n#UserController#0" />
-            <element signature="n#!!block;n#delete#0;n#!!block;n#UserController#0" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/cart/checkout.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/cart/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_header.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="84" column="101" selection-start-line="84" selection-start-column="101" selection-end-line="84" selection-end-column="101" />
+        <state relative-caret-position="910">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/CartController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="504">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="e#16#53#0" expanded="true" />
-            <element signature="n#!!block;n#notFound#0;n#!!block;n#CartController#0" />
+            <element signature="e#17#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/product/productShow.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/includes/_navbar.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="74" column="29" selection-start-line="64" selection-start-column="24" selection-end-line="74" selection-end-column="29" />
+        <state relative-caret-position="1288">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="104" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/clickb/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1056,7 +638,7 @@
         <entry key="clickB">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="734676354" />
+              <option name="buildConfigCrc" value="1578462637" />
               <option name="pluginDependenciesCrc" value="1682136675" />
               <option name="properties">
                 <map>
@@ -1081,80 +663,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (clickB)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>clickB</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

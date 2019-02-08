@@ -3,6 +3,8 @@ package clickb
 import org.springframework.web.multipart.MultipartHttpServletRequest
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 
+import java.text.SimpleDateFormat
+
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
@@ -12,11 +14,12 @@ class ProductController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 
-
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Product.list(params), model:[productInstanceCount: Product.count()]
     }
+
+    
 
     def show(Product productInstance) {
         respond productInstance
@@ -46,7 +49,9 @@ class ProductController {
         file.transferTo(new File(path+filePath))
 
         productInstance.image=filePath
-        productInstance.addedDate=new Date().toString()
+        Date dateNow = new Date( )
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
+        productInstance.addedDate= simpleDateFormat.format(dateNow).toString()
 
         productInstance.save flush:true
 

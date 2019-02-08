@@ -62,8 +62,8 @@ grails.project.dependency.resolution = {
         //plugins for the mail system
         compile ":mail:1.0.7"
 
-        //plugin for Export
-        compile ':export:1.7-SNAPSHOT'
+        /*//plugin for Export
+        compile ':export:1.2'*/
 
         // plugins for the compile step
         compile ":scaffolding:2.1.2"

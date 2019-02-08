@@ -130,10 +130,30 @@ class UserController {
     }
     def mailService
     def mailSend() {
+
+        def total
+        String message=""
+        Map<Integer, Integer> cart = session.cartMap
+
+
+        for (Integer key : cart.keySet()){
+            def product=Product.get(key);
+            if(product.discount==0){
+                total=product.price*cart.get(key)
+            } else {
+                total=(product.price-(product.price*product.discount/100))*cart.get(key)
+            }
+
+            message+="<tr><td>"+product.productName+"</td><td>"+cart.get(key)+"</td><td>"+total+"</td></tr>"
+
+        }
         mailService.sendMail {
-            to "rohitbenz09@gmail.com"
-            subject "This is a test mail"
-            body "Hello! this is test mail."
+            to "ramjdbhandari51@gmail.com"
+            subject "New order"
+            html "<table>" +
+                    "<tr><th>Product</th><th>quantity</th><th>Total</th></tr>"+message+
+                  "</table>"
+
         }
     }
 

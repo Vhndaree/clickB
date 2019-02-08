@@ -1,6 +1,5 @@
 package clickb
 
-import javax.servlet.http.HttpSession
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
@@ -8,9 +7,12 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class CartController {
 
+
+
+
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
     def index() {
-        render(view: '/cart/index', model: [cart : session.cartList])
+        render(view: '/cart/index')
     }
 
     def show() {
@@ -18,9 +20,9 @@ class CartController {
 
     def addToCart(){
 
-        def product=params.product
-        def quantity=params.quantity
-        Map cartMap=[:]
+        def product=params.product.toInteger()
+        def quantity=params.quantity.toInteger()
+        Map cartMap=new HashMap<Integer, Integer>()
         if(!session.cartMap) {
             cartMap.put(product, quantity)
             session.cartMap = cartMap
@@ -31,7 +33,22 @@ class CartController {
             session.cartMap = cartMap
 
         }
+//        render(session.cartMap)
         forward(controller: 'user', action: 'landing')
+    }
+
+    def removeFromCart(){
+
+        Map cartMap=session.cartMap
+
+        cartMap.remove(params.cartId)
+        session.cartMap = cartMap
+
+        index()
+    }
+
+    def checkout(){
+
     }
 
     protected void notFound() {

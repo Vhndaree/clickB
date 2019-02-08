@@ -30,8 +30,8 @@
     <!-- Font Awesome Icon -->
     <asset:stylesheet src="font-awesome.min.css"/>
 
-    <!-- Export plugin -->
-    <export:resource />
+    %{--<!-- Export plugin -->
+    <export:resource />--}%
 
 
 
