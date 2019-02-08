@@ -47,13 +47,14 @@
 
                 <!-- Search -->
                 <div class="header-search">
-                    <g:form controller="product" action="searchResult">
-                        <input class="input search-input" type="text" name="productName" placeholder="Enter your keyword">
-                        <g:select id="category" name="categoryId" from="${clickb.Category.list()}" optionKey="id" required="" value="${productInstance?.category?.id}" class="many-to-one input search-categories"/>
-
-                        <button class="search-btn"><i class="fa fa-search"></i></button>
-                    </g:form>
+                    <div class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><input class="input" style="border: 1px solid black;" id="liveSearch" type="text" name="productName" placeholder="Enter your keyword" autocomplete="off"></a>
+                        <div class="custom-menu">
+                            <ul id="resultSet"></ul>
+                        </div>
+                    </div>
                 </div>
+                %{--for search drop down display--}%
+
                 <!-- /Search -->
             </div>
             <div class="pull-right " style="margin-right: 80px;">
@@ -65,12 +66,11 @@
                     <li class="header-account">
                         <div  aria-expanded="true">
                             <g:form controller="user" action="login">
-                                <g:textField name="email" placeholder="Email" class=""/>
-                                <g:passwordField name="password" placeholder="Password" class=""/>
+                                <g:textField name="email" placeholder="Email" class="input" style="width: 40%;border: 1px solid black;"/>
+                                <g:passwordField name="password" placeholder="Password" class="input" style="width: 40%;border: 1px solid black;"/>
                                 <g:submitButton name="login" value="Login" class="btn btn-primary"/>
                             </g:form>
                         </div>
-                    </li>
                     <!-- /Account -->
                     </g:if>
 
@@ -516,3 +516,26 @@
     <!-- /container -->
 </div>
 <!-- /NAVIGATION -->
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var URL="${createLink(controller:'product',action:'liveSearch')}";
+        $("#liveSearch").keyup(function(){
+            var input=$("#liveSearch").val();
+            $.ajax({
+                type: 'POST',
+                url: URL,
+                data: 'productName='+input,
+                dataType: 'text',
+                success: function(response){
+                    if(response) {
+                        $("#resultSet").html(response);
+                        console.log(response);
+                    }
+                }
+            });
+        });
+    });
+
+
+</script>

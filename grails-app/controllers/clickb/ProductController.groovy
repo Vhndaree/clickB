@@ -1,5 +1,6 @@
 package clickb
 
+import grails.converters.JSON
 import org.springframework.web.multipart.MultipartHttpServletRequest
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 
@@ -121,6 +122,16 @@ class ProductController {
             eq("category", category)
         }
         [searchResult: search]
+    }
+
+    def liveSearch(){
+        def product=params.productName
+
+        def searchProduct=Product.createCriteria()
+        def search = searchProduct.list{
+            like("productName","%$product%")
+        }
+        [search: search]
     }
 
     def productShow(int id){

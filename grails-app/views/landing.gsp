@@ -179,5 +179,4 @@
     <!-- /container -->
 </div>
 <!-- /section -->
-
 <g:render template="/includes/footer"/>

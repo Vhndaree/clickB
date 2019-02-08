@@ -8100,3 +8100,7 @@ n:2014:org/apache/tools/ant/types/resources/comparators/FileSystem
 n:647:org/apache/tools/ant/types/resources/selectors/Exists
 n:1900:org/apache/tools/ant/types/resources/Resources$MyCollection
 n:2375:org/apache/tools/ant/types/resources/Resources$MyCollection$MyIterator
+n:17938:grails/converters/JSON
+n:499:org/codehaus/groovy/grails/web/converters/IncludeExcludeConverter
+n:732:org/codehaus/groovy/grails/web/converters/ConfigurableConverter
+n:3082:org/codehaus/groovy/grails/web/converters/AbstractConverter

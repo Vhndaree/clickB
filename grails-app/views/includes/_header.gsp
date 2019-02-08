@@ -17,6 +17,9 @@
     <!-- Bootstrap -->
     <asset:stylesheet src="bootstrap.min.css"/>
 
+
+    <asset:javascript src="jquery.min.js"/>
+
     <!-- Custom stlylesheet -->
     <asset:stylesheet src="style.css"/>
 
