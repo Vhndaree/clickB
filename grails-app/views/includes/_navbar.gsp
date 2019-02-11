@@ -39,17 +39,17 @@
             <div class="pull-left">
                 <!-- Logo -->
                 <div class="header-logo">
-                    <a class="logo" href="#">
+                    <g:link controller="user" action="landing" class="logo">
                         <asset:image src="logo.png"/>
-                    </a>
+                    </g:link>
                 </div>
                 <!-- /Logo -->
 
                 <!-- Search -->
                 <div class="header-search">
-                    <div class="dropdown default-dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><input class="input" style="border: 1px solid black;" id="liveSearch" type="text" name="productName" placeholder="Enter your keyword" autocomplete="off"></a>
-                        <div class="custom-menu">
-                            <ul id="resultSet"></ul>
+                    <div class="dropdown dropdown-header"><a class="dropdown-toggle" data-toggle="dropdown"><input class="input" style="border: 1px solid black;" id="liveSearch" type="text" name="productName" placeholder="Enter your keyword" autocomplete="off"></a>
+                        <div class="custom-menu ">
+                            <ul id="resultSet" ></ul>
                         </div>
                     </div>
                 </div>
@@ -106,26 +106,33 @@
                             </span>
                         </a>
                         <div class="custom-menu">
+                            <g:if test="${totalQuantity.toInteger()==0}">
+                                <div>
+                                    You dont have any item in your cart.
+                                </div>
+                            </g:if>
+                            <g:else>
                             <div id="shopping-cart">
                                     <div class="shopping-cart-list">
+
                                         <g:each in="${session.cartMap}" var="cartItem">
                                             <g:set var="product" value="${clickb.Product.get(cartItem.getKey())}"/>
-                                        <div class="product product-widget">
-                                            <div class="product-thumb">
-                                                <img src="${resource(file: '/product/images/'+product.image, absolute: true)}">
+                                            <div class="product product-widget">
+                                                <div class="product-thumb">
+                                                    <img src="${resource(file: '/product/images/'+product.image, absolute: true)}">
+                                                </div>
+                                                <div class="product-body">
+                                                    <h3 class="product-price">$ ${product.price} <span class="qty">x${cartItem.getValue()}</span></h3>
+                                                    <h2 class="product-name"><a href="#">${product.productName}</a></h2>
+                                                </div>
+                                                <g:link controller="cart" action="removeFromCart" params="[cartId: product.id]" class="cancel-btn"><i class="fa fa-trash"></i></g:link>
                                             </div>
-                                            <div class="product-body">
-                                                <h3 class="product-price">$ ${product.price} <span class="qty">x${cartItem.getValue()}</span></h3>
-                                                <h2 class="product-name"><a href="#">${product.productName}</a></h2>
-                                            </div>
-                                            <g:link controller="cart" action="removeFromCart" params="[cartId: product.id]" class="cancel-btn"><i class="fa fa-trash"></i></g:link>
-                                        </div>
                                     </g:each></div>
 
                                 <div class="shopping-cart-btns">
                                     <g:link controller="cart" action="index" class="main-btn">View Cart</g:link>
                                     <g:link controller="cart" action="checkout" class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></g:link>
-                                </div>
+                                </div></g:else>
                             </div>
                         </div>
                     </li>
@@ -350,8 +357,8 @@
             <div class="menu-nav">
                 <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
                 <ul class="menu-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><g:link controller="user" action="landing">Home</g:link></li>
+                    <li><g:link controller="cart" action="index">Shop</g:link></li>
                     <li class="dropdown mega-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women <i class="fa fa-caret-down"></i></a>
                         <div class="custom-menu">
                             <div class="row">
@@ -504,6 +511,9 @@
                         <li class="dropdown default-dropdown" style="float: right; margin-right:10px;"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="text-transform: capitalize;">${session.user.name}<i class="fa fa-caret-down"></i></a>
                             <ul class="custom-menu">
                                 <li><a href="#">Profile</a></li>
+                                <g:if test="${session.user.role=="ADMIN"}">
+                                    <li><g:link controller="user" action="dashboard">Dashboard</g:link></li>
+                                </g:if>
                                 <li><g:link controller="user" action="logout">Logout</g:link></li>
                             </ul>
                         </li>
@@ -520,7 +530,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         var URL="${createLink(controller:'product',action:'liveSearch')}";
-        $("#liveSearch").keyup(function(){
+        $("#liveSearch").bind("click keyup", function(){
             var input=$("#liveSearch").val();
             $.ajax({
                 type: 'POST',

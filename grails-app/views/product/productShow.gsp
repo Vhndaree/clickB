@@ -245,5 +245,6 @@
 <!-- /section -->
 
 <g:render template="/includes/pickedforyou"/>
+<g:render template="/includes/latestproduct"/>
 
 <g:render template="/includes/footer"/>

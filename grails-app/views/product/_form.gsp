@@ -59,9 +59,12 @@
 <div class="fieldcontain ${hasErrors(bean: productInstance, field: 'image', 'error')} ">
 	<label for="image">
 		<g:message code="product.image.label" default="Image" />
-		
+
 	</label>
 	<input type="file" name="productImage"/>
+	<g:if test="${productInstance.image}">
+		<img src="${resource(file: "/product/images/"+productInstance.image, absolute: true)}" width="200"/>
+	</g:if>
 
 </div>
 
@@ -74,4 +77,11 @@
 
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: productInstance, field: 'imagePurpose', 'error')} required">
+	<label for="imagePurpose">
+		Image position
+	</label>
+	<g:select name="imagePurpose" from="${productInstance.constraints.imagePurpose.inList}" required="" value="${productInstance?.imagePurpose}" valueMessagePrefix="product.imagePurpose"/>
+
+</div>
 

@@ -12,7 +12,7 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class ProductController {
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static allowedMethods = [save: "POST", update: "POST", delete: "DELETE"]
 
 
     def index(Integer max) {
@@ -43,6 +43,7 @@ class ProductController {
         }
 
         String path="web-app/product/images/"
+
         MultipartHttpServletRequest mpr=(MultipartHttpServletRequest) request
         CommonsMultipartFile file=(CommonsMultipartFile) mpr.getFile("productImage")
         String filePath=file.getOriginalFilename().toString()
@@ -50,7 +51,8 @@ class ProductController {
         file.transferTo(new File(path+filePath))
 
         productInstance.image=filePath
-        Date dateNow = new Date( )
+
+        Date dateNow = new Date()
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
         productInstance.addedDate= simpleDateFormat.format(dateNow).toString()
 
@@ -80,8 +82,23 @@ class ProductController {
             respond productInstance.errors, view:'edit'
             return
         }
+        String path="web-app/product/images/"
+
+        String oldFilePath=productInstance.image
+
+        MultipartHttpServletRequest mpr=(MultipartHttpServletRequest) request
+        CommonsMultipartFile file=(CommonsMultipartFile) mpr.getFile("productImage")
+        String filePath=file.getOriginalFilename().toString()
+        filePath = new Date().toString()+"_"+filePath
+        file.transferTo(new File(path+filePath))
+
+        productInstance.image=filePath
 
         productInstance.save flush:true
+
+        def oldFile= new File(path+oldFilePath)
+        oldFile.delete()
+
 
         request.withFormat {
             form multipartForm {
@@ -101,6 +118,7 @@ class ProductController {
         }
 
         productInstance.delete flush:true
+        new File("web-app/product/images/"+productInstance.image).delete()
 
         request.withFormat {
             form multipartForm {
@@ -134,8 +152,13 @@ class ProductController {
         [search: search]
     }
 
+    @Transactional
     def productShow(int id){
         Product product=Product.get(id)
+
+        product.views=product.views+1
+        product.save flush:true
+
         [product: product]
     }
 

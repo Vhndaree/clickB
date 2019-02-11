@@ -11,6 +11,8 @@ class Product {
     float stock
     String detail
     String addedDate
+    int views
+    String imagePurpose
     static constraints = {
         productName(nullable: false)
         category()
@@ -19,7 +21,9 @@ class Product {
         discount(nullable: true)
         stock(nullable: false)
         image(nullable: true)
-        detail(nullable: true)
+        detail(type: 'longtext', nullable: true)
         addedDate(nullable: true)
+        views(defaultValue: 0)
+        imagePurpose(inList: ['Display', 'Carousel', 'Banner'])
     }
 }

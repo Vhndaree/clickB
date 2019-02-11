@@ -1,3 +1,5 @@
+<g:set var="dealsoftheday" value="${clickb.Product.list(max: 10, sort: "discount", order: "desc")}"/>
+
 <!-- section -->
 <div class="section">
     <!-- container -->
@@ -30,39 +32,44 @@
             <div class="col-md-9 col-sm-6 col-xs-6">
                 <div class="row">
                     <div id="product-slick-1" class="product-slick">
-                        <!-- Product Single -->
-                        <div class="product product-single">
-                            <div class="product-thumb">
-                                <div class="product-label">
-                                    <span>New</span>
-                                    <span class="sale">-20%</span>
+
+                        <g:each in="${dealsoftheday}" var="deals">
+                            <!-- Product Single -->
+                            <div class="product product-single">
+                                <div class="product-thumb">
+                                    <div class="product-label">
+                                        <span class="sale">- ${deals.discount}%</span>
+                                    </div>
+                                    <ul class="product-countdown">
+                                        <li><span>00 H</span></li>
+                                        <li><span>00 M</span></li>
+                                        <li><span>00 S</span></li>
+                                    </ul>
+                                    <g:link controller="product" action="productShow" id="${deals.id}" class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</g:link>
+                                    <img src="${resource(file: "/product/images/"+deals.image, absolute: true)}"/>
                                 </div>
-                                <ul class="product-countdown">
-                                    <li><span>00 H</span></li>
-                                    <li><span>00 M</span></li>
-                                    <li><span>00 S</span></li>
-                                </ul>
-                                <button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
-                                <asset:image src="product/product01.jpg"/>
+                                <div class="product-body">
+                                    <h3 class="product-price">
+                                        $ ${deals.price-(deals.price*deals.discount/100)}
+                                        <del class="product-old-price">${deals.price}</del>
+                                    </h3>
+                                    <div class="product-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o empty"></i>
+                                    </div>
+                                    <h2 class="product-name"><a href="#">${deals.productName}</a></h2>
+                                    <div class="product-btns">
+                                        <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                                        <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                                        <g:link controller="cart" action="addToCart" params="[product: deals.id, quantity: 1]" class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</g:link>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="product-body">
-                                <h3 class="product-price">$32.50 <del class="product-old-price">$45.00</del></h3>
-                                <div class="product-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o empty"></i>
-                                </div>
-                                <h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
-                                <div class="product-btns">
-                                    <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
-                                    <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-                                    <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /Product Single -->
+                            <!-- /Product Single -->
+                        </g:each>
                     </div>
                 </div>
             </div>

@@ -38,11 +38,9 @@ class CartController {
     }
 
     def removeFromCart(){
-
         Map cartMap=session.cartMap
-
-        cartMap.remove(params.cartId)
-        session.cartMap = cartMap
+        cartMap.remove(params.cartId.toInteger())
+        session.cartMap=cartMap
 
         index()
     }

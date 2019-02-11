@@ -1,3 +1,5 @@
+<g:set var="latestProduct" value="${clickb.Product.list(max: 3, sort: "addedDate", order: "desc")}"/>
+
 <!-- section -->
 <div class="section">
     <!-- container -->
@@ -36,7 +38,7 @@
                             <div class="product-label">
                                 <span>New</span>
                                 <g:if test="${latest.discount!=0}">
-                                    <span class='sale'>${latest.discount}%</span>
+                                    <span class='sale'>- ${latest.discount}%</span>
                                 </g:if>
                             </div>
                             <g:link controller="product" action="productShow" id="${latest.id}" class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</g:link>

@@ -1,23 +1,19 @@
 
 <%@ page import="clickb.Product" %>
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="layout" content="main">
-		<g:set var="entityName" value="${message(code: 'product.label', default: 'Product')}" />
-		<title><g:message code="default.show.label" args="[entityName]" /></title>
-	</head>
-	<body>
+<g:render template="../includes/header"/>
+<asset:stylesheet src="application.css"/>
+<asset:javascript src="application.js"/>
+<g:render template="../includes/adminNav"/>
 		<a href="#show-product" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+				<li><a class="home" href="${createLink(uri: '/home')}"><g:message code="default.home.label"/></a></li>
+				<li><g:link class="list" action="index">List</g:link></li>
+				<li><g:link class="create" action="create">New</g:link></li>
 			</ul>
 		</div>
 		<div id="show-product" class="content scaffold-show" role="main">
-			<h1><g:message code="default.show.label" args="[entityName]" /></h1>
+			<h1>${productInstance.productName}</h1>
 			<g:if test="${flash.message}">
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
@@ -81,7 +77,7 @@
 				<li class="fieldcontain">
 					<span id="image-label" class="property-label"><g:message code="product.image.label" default="Image" /></span>
 					
-						<img src="${resource(file: "/product/images/"+productInstance.image, absolute: true)}" height="200" width="200"/>
+						<span class="property-value" aria-labelledby="image-label"><img src="${resource(file: "/product/images/"+productInstance.image, absolute: true)}" height="200" width="200"/></span>
 					
 				</li>
 				</g:if>
@@ -100,6 +96,24 @@
 					<span id="addedDate-label" class="property-label"><g:message code="product.addedDate.label" default="Added Date" /></span>
 					
 						<span class="property-value" aria-labelledby="addedDate-label"><g:fieldValue bean="${productInstance}" field="addedDate"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${productInstance?.views}">
+				<li class="fieldcontain">
+					<span id="views-label" class="property-label"><g:message code="product.views.label" default="Views" /></span>
+					
+						<span class="property-value" aria-labelledby="views-label"><g:fieldValue bean="${productInstance}" field="views"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${productInstance?.imagePurpose}">
+				<li class="fieldcontain">
+					Image Display
+					
+						<span class="property-value" aria-labelledby="imagePurpose-label"><g:fieldValue bean="${productInstance}" field="imagePurpose"/></span>
 					
 				</li>
 				</g:if>

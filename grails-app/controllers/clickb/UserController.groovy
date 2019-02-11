@@ -111,16 +111,13 @@ class UserController {
     }
 
     def dashboard(){
-
+        if(session.user.role!="ADMIN"){
+            landing()
+        }
     }
 
     def landing(){
-        def latestProduct=Product.createCriteria()
-        def latest = latestProduct.list{
-            order("addedDate","desc")
-            maxResults 3
-        }
-        render(view: '../landing', model: [latestProduct: latest])
+        render(view: '../landing')
     }
 
     def invalidateSession(){
